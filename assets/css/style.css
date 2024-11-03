@@ -65,10 +65,422 @@ body header nav ul li a  {
     background-image: url(/poker/images/bgVideo.gif);
     height: calc(100vh - 117px);
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    background-attachment: fixed;*/
 }
 
 .navbar-brand img {
     width: 115px;
+}
+
+
+
+/*main banner */
+
+.mainThemeHead {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+
+.primaryThemeBtn {
+    background-color: rgba(255, 0, 0, 1);
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 8rem;
+    border-radius: 50px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.primaryThemeBtn:hover {
+    background-color: #fff;
+    border: 1px solid rgba(255, 0, 0, 1);
+    color: rgba(255, 0, 0, 1);
+     text-decoration: none;
+    transition: .5s;
+}
+
+.subTitle {
+    font-size: 14px;    
+    position: relative;
+    left: 6rem;
+}
+
+.subTitle::before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: rgba(255, 86, 86, 1);
+    position: absolute;
+    top: 38%;
+    left: -48px;
+}
+
+/*generaic classes*/
+
+.f-40 {
+    font-size: 40px;
+}
+
+.f-32 {
+    font-size: 32px;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
+.themeColor {
+    color: rgba(255, 0, 0, 1);
+}
+
+/*evelate section*/
+
+.elevatePlay {
+    background-image: url(/poker/images/evelate.jpeg);
+    background-size: cover;
+    height: 100vh;
+    padding: 5rem 0;
+}
+
+/*membership*/
+
+.membershipSection {
+    background-image: url(/poker/images/membership.png);
+    background-size: cover;
+/*    height: 100vh;*/
+    padding: 5rem 0;
+}
+
+.triangle {
+     background-image: url(/poker/images/shape.png);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: 50%;
+}
+
+.elevateContent .subTitle {
+    left: 0;
+}
+
+.elevateContent .subTitle::before {
+    background-color: #fff;
+}
+
+.mainThemeHead sub, .mainThemeHead sup {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.packageBox {
+    background-color: rgba(14, 14, 14, 1);
+    padding: 3rem;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.packageFooter {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -36px;
+}
+
+.packageFooter a {
+    padding: 15px 6rem;
+}
+
+.packageBody ul {
+    list-style: none;
+}
+
+.packageBody ul li {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.packageBody ul li::before {
+    content: '';
+    width: 3px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 10px;
+    left: -9px;
+}
+
+
+/*Mastery */
+
+.mastery {
+    padding: 5rem 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.mastryContent a {
+    background-color: #000;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 1rem 3rem;
+}
+
+p {
+    font-size: 15px;
+}
+
+.rightImage img {
+    border-radius: 100px 0 0 100px;
+}
+
+.leftImage img {
+    border-radius: 0 100px 100px 0;
+}
+
+/*meet or team */
+
+.ourTeam {
+    padding: 5rem 0;
+    margin: 0 2rem;
+    background-color: #000;
+    border-radius: 100px;
+    color: #fff;
+}
+
+footer {
+    padding: 5rem 0;
+    background-color: #000;
+    border-radius: 100px 0 100px 100px;
+    color: #fff;
+}
+
+.meetImage {
+    position: relative;
+    background-color: rgba(20, 20, 20, 1);
+    height: 320px;
+    border-radius: 10px;
+}
+
+.meetImage img {
+    position: absolute;
+    width: 250px;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.mb-55 {
+    margin-bottom: 13rem;
+}
+
+.redBox {
+    position: relative;
+    top: -6rem;
+}
+
+.redBox .meetImage {
+    background-color: #ff0000;
+
+}
+
+.redBox .meetImage::before {
+    content: url('/poker/images/heart.png');
+    top: 20px;
+    left: 10px;
+    position: absolute;
+    display: block;
+}
+
+.redBox .meetImage::after {
+    content: url('/poker/images/heart.png');
+    bottom: 20px;
+    right: 10px;
+    position: absolute;
+    display: block;
+}
+
+.meetImage::before {
+    content: url('/poker/images/die.png');
+    top: 20px;
+    left: 10px;
+    position: absolute;
+    display: block;
+}
+
+.meetImage::after {
+    content: url('/poker/images/die.png');
+    bottom: 20px;
+    right: 10px;
+    position: absolute;
+    display: block;
+}
+
+.footerLogo {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 122px;
+    padding: 30px 15px;
+}
+
+.footerDes {
+    padding: 45px 0;
+}
+
+.footerDes p {
+    margin: 0;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 3rem;
+    font-size: 28px;
+    margin-bottom: 2rem;
+}
+
+.quickLinks ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quickLinks ul li {
+    margin-bottom: 1rem;
+}
+
+.quickLinks ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*testimonials */
+
+.testHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimonialBox {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    border: 1px solid rgba(235, 239, 255, 1);
+    padding: 25px;
+}
+
+.teamIcon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #040404;
+    flex-shrink: 0;
+}
+
+.bg-yellow {
+    background-color: rgba(254, 174, 55, 1);
+}
+
+.testimonialSect {
+    padding: 4rem 0;
+}
+
+
+/*faq section */
+
+ .faqSection {
+    padding-bottom: 4rem;
+ }
+
+.leftAdjust {
+    left: 3.2rem;
+}
+
+.faqSection .card-header {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0;
+}
+
+.faqSection .card {
+    border: none;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 15px  0;
+}
+
+.faqSection .card-body {padding-right: 5rem;font-size: 14px;}
+
+.faqSection .card-header button {
+    outline: none !important;
+    color: #000;
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+   
+}
+
+.faqSection .card-header button:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.faqSection .btn.focus, .btn:focus {
+     box-shadow: none;
+}
+
+.btn-link.focus, .btn-link:focus {
+     text-decoration: none;
+}
+
+.faqSection button[aria-expanded="true"] {
+    color: #ff0000;
+}
+
+.faqSection button[aria-expanded="true"]::after {
+    content: '\f068';
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    position: absolute;
+    right: 5px;
+    background-color: #000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    line-height: 27px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.faqSection button[aria-expanded="false"]::after {
+    content: '\f067';
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    position: absolute;
+    right: 5px;
+    background-color: rgba(235, 239, 255, 1);
+    color: #000;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    line-height: 27px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
