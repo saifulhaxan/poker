@@ -62,7 +62,7 @@ body header nav ul li a  {
 }
 
 .mainBanner {
-    background-image: url(/poker/images/bgVideo.gif);
+    background-image: url(./images/bgVideo.gif);
     height: calc(100vh - 117px);
     background-size: cover;
     display: flex;
@@ -143,7 +143,7 @@ body header nav ul li a  {
 /*evelate section*/
 
 .elevatePlay {
-    background-image: url(/poker/images/evelate.jpeg);
+    background-image: url(./images/evelate.jpeg);
     background-size: cover;
     height: 100vh;
     padding: 5rem 0;
@@ -152,14 +152,14 @@ body header nav ul li a  {
 /*membership*/
 
 .membershipSection {
-    background-image: url(/poker/images/membership.png);
+    background-image: url(./images/membership.png);
     background-size: cover;
 /*    height: 100vh;*/
     padding: 5rem 0;
 }
 
 .triangle {
-     background-image: url(/poker/images/shape.png);
+     background-image: url(./images/shape.png);
      background-size: 100%;
      background-repeat: no-repeat;
      background-position: 50%;
@@ -297,7 +297,7 @@ footer {
 }
 
 .redBox .meetImage::before {
-    content: url('/poker/images/heart.png');
+    content: url('./images/heart.png');
     top: 20px;
     left: 10px;
     position: absolute;
@@ -305,7 +305,7 @@ footer {
 }
 
 .redBox .meetImage::after {
-    content: url('/poker/images/heart.png');
+    content: url('./images/heart.png');
     bottom: 20px;
     right: 10px;
     position: absolute;
@@ -313,7 +313,7 @@ footer {
 }
 
 .meetImage::before {
-    content: url('/poker/images/die.png');
+    content: url('./images/die.png');
     top: 20px;
     left: 10px;
     position: absolute;
@@ -321,7 +321,7 @@ footer {
 }
 
 .meetImage::after {
-    content: url('/poker/images/die.png');
+    content: url('./images/die.png');
     bottom: 20px;
     right: 10px;
     position: absolute;
