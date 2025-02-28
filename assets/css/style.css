@@ -22,6 +22,10 @@ body header nav ul li a  {
     text-align: center;
 }
 
+img.discord {
+    width: 33px;
+}
+
 .section-title {
     margin: 40px 0;
     font-size: 1.8rem;
@@ -288,7 +292,7 @@ footer {
 
 .redBox {
     position: relative;
-    top: -6rem;
+    /* top: -6rem; */
 }
 
 .redBox .meetImage {
