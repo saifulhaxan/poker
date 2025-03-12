@@ -2,20 +2,19 @@
 
 
 body {
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
+ font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .poppin {
-    font-family: "Poppins", serif;
+     font-family: "Poppins", serif;
 }
 
-body header nav ul li a {
-    color: rgba(0, 0, 0, .1);
+body header nav ul li a  {
+    color: rgba(0,0,0,.1);
     opacity: 1;
 }
-
 .hero-section {
     background: url('hero-image.jpg') no-repeat center center/cover;
     color: #fff;
@@ -73,7 +72,7 @@ img.discord {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*    background-attachment: fixed;*/
+/*    background-attachment: fixed;*/
 }
 
 .navbar-brand img {
@@ -107,12 +106,12 @@ img.discord {
     background-color: #fff;
     border: 1px solid rgba(255, 0, 0, 1);
     color: rgba(255, 0, 0, 1);
-    text-decoration: none;
+     text-decoration: none;
     transition: .5s;
 }
 
 .subTitle {
-    font-size: 14px;
+    font-size: 14px;    
     position: relative;
     left: 6rem;
 }
@@ -157,17 +156,17 @@ img.discord {
 /*membership*/
 
 .membershipSection {
-    background-image: url(/images/membership.png);
+    background-image: url(/images/memberships.png);
     background-size: cover;
-    /*    height: 100vh;*/
+/*    height: 100vh;*/
     padding: 5rem 0;
 }
 
 .triangle {
-    background-image: url(/images/shape.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: 50%;
+     background-image: url(/images/shape.png);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: 50%;
 }
 
 .elevateContent .subTitle {
@@ -178,8 +177,7 @@ img.discord {
     background-color: #fff;
 }
 
-.mainThemeHead sub,
-.mainThemeHead sup {
+.mainThemeHead sub, .mainThemeHead sup {
     font-size: 14px;
     font-weight: 400;
     padding: 0 10px;
@@ -406,9 +404,9 @@ footer {
 
 /*faq section */
 
-.faqSection {
+ .faqSection {
     padding-bottom: 4rem;
-}
+ }
 
 .leftAdjust {
     left: 3.2rem;
@@ -423,13 +421,10 @@ footer {
 .faqSection .card {
     border: none;
     border-bottom: 1px solid #f3f3f3;
-    padding: 15px 0;
+    padding: 15px  0;
 }
 
-.faqSection .card-body {
-    padding-right: 5rem;
-    font-size: 14px;
-}
+.faqSection .card-body {padding-right: 5rem;font-size: 14px;}
 
 .faqSection .card-header button {
     outline: none !important;
@@ -438,7 +433,7 @@ footer {
     width: 100%;
     text-align: left;
     position: relative;
-
+   
 }
 
 .faqSection .card-header button:hover {
@@ -446,14 +441,12 @@ footer {
     text-decoration: none;
 }
 
-.faqSection .btn.focus,
-.btn:focus {
-    box-shadow: none;
+.faqSection .btn.focus, .btn:focus {
+     box-shadow: none;
 }
 
-.btn-link.focus,
-.btn-link:focus {
-    text-decoration: none;
+.btn-link.focus, .btn-link:focus {
+     text-decoration: none;
 }
 
 .faqSection button[aria-expanded="true"] {
@@ -492,55 +485,6 @@ footer {
     line-height: 27px;
     top: 50%;
     transform: translateY(-50%);
-}
-
-@media(max-width: 799px) {
-    .f-40 {
-        font-size: 24px;
-    }
-
-    .f-32 {
-        font-size: 20px;
-        margin-top: 1rem;
-    }
-
-    .f-24 {
-        font-size: 18px;
-    }
-
-    .ourTeam {
-        padding: 5rem 0;
-        margin: 0 2rem;
-        background-color: #000;
-        border-radius: 0;
-        color: #fff;
-    }
-
-    .mb-55 {
-        margin-bottom: 5rem;
-    }
-
-    .teamBox {
-        margin-bottom: 5rem;
-    }
-
-    .packageBox {
-        background-color: rgba(14, 14, 14, 1);
-        padding: 3rem 1rem;
-        border-radius: 50px;
-        text-align: center;
-        position: relative;
-        text-align: left;
-    }
-
-    .testimonialBox {
-        flex-wrap: wrap;
-    }
-
-    .faqSection .card-header button {
-        font-size: 16px;
-
-    }
 }
 
 
