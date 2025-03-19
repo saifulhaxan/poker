@@ -129,11 +129,11 @@ img.discord {
 /*generaic classes*/
 
 .f-40 {
-    font-size: 40px;
+    font-size: 36px;
 }
 
 .f-32 {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .f-24 {
@@ -264,9 +264,9 @@ p {
 }
 
 footer {
-    padding: 5rem 0;
+    padding: 2rem 0;
     background-color: #000;
-    border-radius: 100px 0 100px 100px;
+    border-radius: 50px 0 50px 50px;
     color: #fff;
 }
 
@@ -336,11 +336,11 @@ footer {
     display: inline-block;
     background-color: #fff;
     border-radius: 122px;
-    padding: 30px 15px;
+    padding: 24px 16px;
 }
 
 .footerDes {
-    padding: 45px 0;
+    padding: 18px 0;
 }
 
 .footerDes p {
@@ -351,7 +351,15 @@ footer {
     display: flex;
     gap: 3rem;
     font-size: 28px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footerLogo img {
+    width: 109px;
+}
+
+.copyRight p {
+    margin-bottom: 0;
 }
 
 .quickLinks ul {
