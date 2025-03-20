@@ -126,14 +126,19 @@ img.discord {
     left: -48px;
 }
 
+.packageBody ul {
+    list-style: none;
+    text-align: left;
+}
+
 /*generaic classes*/
 
 .f-40 {
-    font-size: 36px;
+    font-size: 38px;
 }
 
 .f-32 {
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .f-24 {
@@ -495,5 +500,11 @@ footer {
     transform: translateY(-50%);
 }
 
+
+@media(min-width: 1170px) {
+    section.mainBanner h1 {
+        font-size: 54px;
+    }
+}
 
 /*https://www.figma.com/design/Xa399TlC72UDFGFwLgeFUc/Arch-City-Poker?node-id=91-12&node-type=frame&t=td9aGmeSlSo0UmCu-0*/
