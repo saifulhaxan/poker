@@ -507,4 +507,69 @@ footer {
     }
 }
 
+
+@media(max-width: 799px) {
+
+    .mainThemeHead {
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    .primaryThemeBtn {
+        background-color: rgba(255, 0, 0, 1);
+        color: #fff;
+        font-size: 20px;
+        padding: 8px 0rem;
+        display: block !important;
+        border-radius: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        border: 1px solid transparent;
+    }
+
+    .elevatePlay {
+        background-image: url(/images/evelate.jpeg);
+        background-size: contain;
+        height: 100vh;
+        padding: 5rem 0;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    
+    .leftImage img {
+        border-radius: 0;
+        margin-bottom: 30px;
+    }
+    
+    .rightImage img {
+        border-radius: 0;
+        margin-bottom: 30px;
+    }
+    
+    .ourTeam {
+        padding: 5rem 0;
+        margin: 0;
+        background-color: #000;
+        border-radius: 0;
+        color: #fff;
+    }
+    
+    .mb-55 {
+        margin-bottom: 4rem;
+    }
+    
+    .meetData {
+        margin-bottom: 5rem;
+    }
+    
+    .card-header button {
+        outline: none !important;
+        color: #000;
+        font-size: 16px;
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+}
+
 /*https://www.figma.com/design/Xa399TlC72UDFGFwLgeFUc/Arch-City-Poker?node-id=91-12&node-type=frame&t=td9aGmeSlSo0UmCu-0*/
